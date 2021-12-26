@@ -789,18 +789,54 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*About Container*/
+#abt-container{
+  background: url("../img/about/about-container.jpg");
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.abt-cont::before{
+  content: none;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 /* ------- Table of Contents------- */
 #contents .content {
-  width: 500px;
+  margin-top: 20px;
   padding: 30px;
   background: #ffffff25;
   color: #fff;
-  margin: 20px;
 }
-#contents .content h3{
+.content h3{
   font-family: 'Special Elite',cursive;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #DD3046;
-  padding-left: 30px;
+}
+.content p{
+  font-family: "Georgia", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+.content ul{
+  list-style: none;
+  font-family: "Georgia", sans-serif;
+  font-size: 17px;
+}
+.content ul li span{
+  color: rgb(231, 196, 149);
+  font-weight: 700;
+  font-size: 20px;
+}
+.content ul li{
+  color: white;
+  padding-bottom: 20px;
 }
 #contents .content ul{
   list-style: none;
@@ -1151,8 +1187,7 @@ section {
   position: relative;
   margin: auto;
   padding: 80px 0;
-  padding-bottom: 200px;
-  
+  padding-bottom: 200px;  
 }
 .timeline:before {
   content: "";
