@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<!--         <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script> -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS For Beginners</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <script src="js/main.js"></script>  
+    <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyAIT3W6gEObibxVdk_0jysZ9y_5d5oH3nc",
+    authDomain: "student-info-e9f2a.firebaseapp.com",
+    databaseURL: "https://student-info-e9f2a-default-rtdb.firebaseio.com",
+    projectId: "student-info-e9f2a",
+    storageBucket: "student-info-e9f2a.appspot.com",
+    messagingSenderId: "811876062276",
+    appId: "1:811876062276:web:c6da5503cb26e316125811",
+    measurementId: "G-17KNNS1637"
+  };
+
+   firebase.initializeApp(firebaseConfig);
+
+    </script>
+
+    
+   <!--  <script>
+        const firebaseConfig = {
+    apiKey: "AIzaSyCofrHATXF1YLPn__jZI3QgUIAJ5moPXj0",
+    authDomain: "example-3-c8572.firebaseapp.com",
+    databaseURL: "https://example-3-c8572-default-rtdb.firebaseio.com",
+    projectId: "example-3-c8572",
+    storageBucket: "example-3-c8572.appspot.com",
+    messagingSenderId: "479148175722",
+    appId: "1:479148175722:web:a5a31a516a24f3818cf513",
+    measurementId: "G-FZ0RNQWTRL"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+    </script> -->
+<body>
+
+
+    <header>
+        <h1>JS For Beginners</h1>
+    </header>
+    <center>Fill up the followings to insert a new student:</center> <br>
+    <center><input type="" id="name" placeholder="Name:" name="name"> <br>
+    <input type="" id="id" title="ID" placeholder="ID:"> <br>
+    <input type="" id="email" title="email" placeholder="Email:"> <br>
+    <button onclick="show()">Submit</button>
+    <br>
+    <br>
+    <center>Fill up the followings to get the information of a student:</center> <br>
+    <input type="" id="id1" name="id" placeholder="ID:"> <br>
+    <button onclick="search()">Search</button> <br>
+
+     <br>
+    <br>
+    <center>Fill up the followings to delete the information of a student:</center> <br>
+    <input type="" id="for_del" name="id" placeholder="ID:"> <br>
+    <button onclick="delete_()">Delete</button> <br>
+
+    <br>
+    <br>
+    <button onclick="all_student_view()">All Student View</button> <br>
+    <br>
+    <a href="iform.html"> Click to view Form </a></center>
+
+
+</body>
+</html>
