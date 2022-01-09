@@ -50,8 +50,8 @@
 
       <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="Project\img\Logo.png"> </a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo_1.png" class="img-fluid"
-            alt="Responsive image"></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo_1.png" alt="Responsive image"></a>
+      </h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -63,15 +63,14 @@
                 class="bi bi-chevron-down"></i></a>
             <ul>
               <!-- all the categories, or maybe some -->
-              <li><a href="#">Literature & Art</a></li>
+              <li><a href="#">Literature</a></li>
+              <li><a href="#">Art</a></li>
               <li><a href="#">Geography</a></li>
               <li><a href="#">Architecture</a></li>
               <li><a href="#">Media & Performing Arts</a></li>
-              <li><a href="#">People</a></li>
               <li><a href="#">Cuisine</a></li>
               <li><a href="#">Fashion & Textile</a></li>
               <li><a href="#">Sports</a></li>
-              <li><a href="#">Festivals</a></li>
             </ul>
           </li>
         </ul>
@@ -86,17 +85,25 @@
       data-aos-delay="100">
       <div class="row" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8" id="hero-intro">
-          <h1 align="center">Discover <span>Bangladesh.</span></h1>
+          <h1 style="padding-left: 80px;">Discover <span>Bangladesh.</span></h1>
+          <a href="#featured"><button type="button" class="btn btn-danger"
+              style="background-color: #DD3046; font-size: 11px; transition: .2s; margin-top: 15px; margin-left: 75px; width: 86px; height: 34px;">Get
+              Started</button></a>
+              <style>
+                #hero3 .btn-danger:hover{
+                  transform: scale(1.1);
+                }
+              </style>
         </div>
       </div>
     </div>
   </section>
   <!-- End Hero -->
 
-  <main id="main">
+  <main id="main" class="travel-page">
     <section id="featured" class="featured">
       <div class="container">
-
+        <h1>Divisions</h1>
         <div class="row">
           <div class="col-lg-3">
             <div class="card">
@@ -188,18 +195,18 @@
 
     <div id="districts">
       <!-- Dhaka Section -->
-      <section id="dhaka" class="d-flex align-items-center img-fluid">
+      <section class="d-flex align-items-center img-fluid">
         <div class="container" data-aos="fade-up">
           <div class="col-lg-8 col-md-10 d-flex align-items">
             <center>
 
-              <div class="content">
+              <div class="content" id="dhaka">
                 <h3>Dhaka</h3>
                 <div class="row">
                   <div class="col-sm-3">
                     <div class="card">
                       <div class="card-body">
-                        <p class="card-text"><a href="">Dhaka</a></p>
+                        <p class="card-text"><a href="dhaka.html">Dhaka</a></p>
                       </div>
                     </div>
                   </div>
@@ -227,7 +234,7 @@
                   <div class="col-sm-3">
                     <div class="card">
                       <div class="card-body">
-                        <p class="card-text"><a href="">Kishoreganj</a></p>
+                        <p class="card-text" style="font-size: 28px;"><a href="">Kishoreganj</a></p>
                       </div>
                     </div>
                   </div>
@@ -255,7 +262,7 @@
                   <div class="col-sm-3">
                     <div class="card">
                       <div class="card-body">
-                        <p class="card-text"><a href="">Narayanganj</a></p>
+                        <p class="card-text" style="font-size: 28px;"><a href="">Narayanganj</a></p>
                       </div>
                     </div>
                   </div>
@@ -288,162 +295,404 @@
                     </div>
                   </div>
                 </div>
-                <!-- <table class="table">
-                    <td><a href="#">Rajbari</a></td>
-                    <td><a href="#">Shariatpur</a></td>
-                    <td><a href="#">Tangail</a></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table> -->
-
               </div>
+              <div class="content" id="khulna">
+                <h3>Khulna</h3>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="bagerhaat.html">Bagerhat</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Chuadanga</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Jashore</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Jhenaidah</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Khulna</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Kushtia</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Magura</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Meherpur</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Narail</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="card-text"><a href="">Satkhira</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content" id="ctg">
+                  <h3>Chattogram</h3>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text" style="font-size: 25px;"><a href="">Brahmanbaria</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Comilla</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Chandpur</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Lakshmipur</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Noakhali</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Feni</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text" style="font-size: 26px;"><a href="">Khagrachhari</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Rangamati</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Bandarban</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Chattogram</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Cox's Bazar</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content" id="rajshahi">
+                  <h3>Rajshahi</h3>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Bogra</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Joypurhat</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Naogaon</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Natore</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="" style="font-size: 18px;">Chapainawabganj</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Pabna
+                            </a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Rajshahi</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Sirajganj</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content" id="barisal">
+                  <h3>Barisal</h3>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Barguna</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Barisal</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Bhola</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Jhalokathi</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Patuakhali</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Pirojpur
+                            </a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content" id="sylhet">
+                  <h3>Sylhet</h3>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Habiganj</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Moulvibazar</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Sunamganj</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Sylhet</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content" id="rangpur">
+                  <h3>Rangpur</h3>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Dinajpur</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Gaibandha</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Kurigram</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Lalmonirhat</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Nilphamari</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Panchagarh
+                            </a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Rangpur</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><a href="">Thakurgaon</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content" id="mymensingh">
+                    <h3>Mymensingh</h3>
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text"><a href="">Jamalpur</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text"><a href="">Mymensingh</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text"><a href="">Netrokona</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text"><a href="">Sherpur</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </center>
           </div>
         </div>
-      </section>
-      <!-- Khulna Section -->
-      <section id="khulna" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Khulna</h3>
-              <ul>
-                <li><a href="bagerhaat.html">Bagerhat</a></li>
-                <li><a href="#">Chuadanga</a></li>
-                <li><a href="#">Jashore</a></li>
-                <li><a href="#">Jhenaidah</a></li>
-                <li><a href="#">Khulna</a></li>
-                <li><a href="#">Kushtia</a></li>
-                <li><a href="#">Magura</a></li>
-                <li><a href="#">Meherpur</a></li>
-                <li><a href="#">Narail</a></li>
-                <li><a href="#">Satkhira</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Chattogram Section -->
-      <section id="ctg" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Chattogram</h3>
-              <ul>
-                <li><a href="#">Bandarban</a></li>
-                <li><a href="#">Brahmanbaria</a></li>
-                <li><a href="#">Chandpur</a></li>
-                <li><a href="#">Chattogram</a></li>
-                <li><a href="#">Comilla</a></li>
-                <li><a href="#">Cox's Bazar</a></li>
-                <li><a href="#">Feni</a></li>
-                <li><a href="#">Khagrachhari</a></li>
-                <li><a href="#">Lakshmipur</a></li>
-                <li><a href="#">Noakhali</a></li>
-                <li><a href="#">Rangamati</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Rajshahi Section -->
-      <section id="rajshahi" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Rajshahi</h3>
-              <ul>
-                <li><a href="#">Bogura</a></li>
-                <li><a href="#">Joypurhat</a></li>
-                <li><a href="#">Naogaon</a></li>
-                <li><a href="#">Natore</a></li>
-                <li><a href="#">Chapainawabganj</a></li>
-                <li><a href="#">Pabna</a></li>
-                <li><a href="#">Rajshahi</a></li>
-                <li><a href="#">Sirajganj</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Barisal Section -->
-      <section id="barisal" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Barisal</h3>
-              <ul>
-                <li><a href="#">Barguna</a></li>
-                <li><a href="#">Barisal</a></li>
-                <li><a href="#">Bhola</a></li>
-                <li><a href="#">Jhalokathi</a></li>
-                <li><a href="#">Patuakhali</a></li>
-                <li><a href="#">Pirojpur</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Sylhet Section -->
-      <section id="sylhet" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Sylhet</h3>
-              <ul>
-                <li><a href="#">Habiganj</a></li>
-                <li><a href="#">Moulvibazar</a></li>
-                <li><a href="#">Sunamganj</a></li>
-                <li><a href="#">Sylhet</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Rangpur Section -->
-      <section id="rangpur" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Rangpur</h3>
-              <ul>
-                <li><a href="#">Dinajpur</a></li>
-                <li><a href="#">Gaibandha</a></li>
-                <li><a href="#">Kurigram</a></li>
-                <li><a href="#">Lalmonirhat</a></li>
-                <li><a href="#">Nilphamari</a></li>
-                <li><a href="#">Panchagarh</a></li>
-                <li><a href="#">Rangpur</a></li>
-                <li><a href="#">Thakurgaon</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Mymensingh Section -->
-      <section id="mymensingh" class="d-flex align-items-center img-fluid">
-        <div class="container" data-aos="fade-up">
-          <div class="col-lg-8 col-md-10 d-flex align-items">
-            <div class="content">
-              <h3>Mymensingh</h3>
-              <ul>
-                <li><a href="#">Jamalpur</a></li>
-                <li><a href="#">Mymensingh</a></li>
-                <li><a href="#">Netrokona</a></li>
-                <li><a href="#">Sherpur</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   </main>
 

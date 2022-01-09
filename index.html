@@ -50,8 +50,8 @@
 
       <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="Project\img\Logo.png"> </a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo_1.png" class="img-fluid"
-            alt="Responsive image"></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/logo_1.png" alt="Responsive image"></a>
+      </h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -63,15 +63,14 @@
                 class="bi bi-chevron-down"></i></a>
             <ul>
               <!-- all the categories, or maybe some -->
-              <li><a href="#">Literature & Art</a></li>
+              <li><a href="#">Literature</a></li>
+              <li><a href="#">Art</a></li>
               <li><a href="#">Geography</a></li>
               <li><a href="#">Architecture</a></li>
               <li><a href="#">Media & Performing Arts</a></li>
-              <li><a href="#">People</a></li>
               <li><a href="#">Cuisine</a></li>
               <li><a href="#">Fashion & Textile</a></li>
               <li><a href="#">Sports</a></li>
-              <li><a href="#">Festivals</a></li>
             </ul>
           </li>
         </ul>
@@ -87,14 +86,19 @@
       data-aos-delay="100">
       <div class="row" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8" id="hero-intro">
-          <h1>The chronicles of <span>Bangladesh.</span></h1>
+          <h1>The chronicles of <br><span>Bangladesh.</span></h1>
           <!-- <p>National Anthem goes here.</p> -->
-          <audio id="myAudio" controls style="margin: 20px;">
-            <source
-              src="assets/music/Amar Shonar Bangla _ আমার সোনার বাংলা _ বাংলাদেশের জাতীয় সংগীত _ The National Anthem of Bangladesh.mp3"
-              type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
+          <div class="myAudio">
+            <audio controls>
+              <source
+                src="assets/music/Amar Shonar Bangla _ আমার সোনার বাংলা _ বাংলাদেশের জাতীয় সংগীত _ The National Anthem of Bangladesh.mp3"
+                type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <h3 style="margin: 0;">Listen to the full song in this <a href="https://www.youtube.com/watch?v=xy2kRkcn-rc"
+                target="_blank">link.</a></h3>
+          </div>
+
           <!-- <img onclick="playAudio()" type="button" src="assets/music/play.png" height="30px">
           <img onclick="pauseAudio()" type="button" src="assets/music/pause.png" height="30px">
           <script>
@@ -188,9 +192,11 @@
         </div>
         <section id="cta" class="cta">
           <div class="row">
-            <div class="section-title" style="padding-left: 35%;">
-              <p>About Bangladesh</p>
-            </div>
+            <center>
+              <div class="section-title">
+                <p>About Bangladesh</p>
+              </div>
+            </center>
             <div class="col-lg-9 text-lg-start" id="abt-bd">
               <ul>
                 <li><span>Official Name:</span> People's Republic of Bangladesh</li>
@@ -222,189 +228,196 @@
     <!-- Timeline Section -->
 
     <section id="time-line" class="timeline section-bg">
-      <div class="container img-fluid" data-aos="fade-up">
-        <div class="section-title" style="padding-left: 25%;">
-          <p>A Historical Timeline of Bangladesh</p>
-        </div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner" style="margin-left: 135px;">
-            <div class="carousel-item active" data-bs-interval="1000000">
 
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Prehistoric Era</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
+      <center>
+        <div class="container img-fluid" data-aos="fade-up">
+          <div class="section-title">
+            <p>A Historical Timeline of Bangladesh</p>
+          </div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000000">
 
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Iron Age</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4" style="float:left;">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Ancient India</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Vedic Period</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Harikela</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="carousel-item" data-bs-interval="1000000">
-
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
                       src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Ancient and Classical</h4>
+                      <p class="card-text" align="left">The period of Bengal's history ranging over the Stone Age, Iron
+                        Age and
+                        several
+                        dynasties.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
                       src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Medieval and Early Modern</h4>
+                      <p class="card-text" align="left">Emergence of Sultanates as Bengal sees an end to centuries of
+                        Jain, Hindu and
+                        Buddhist rules.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
+                <div class="col-md-4" style="float:left;">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Mughal Period</h4>
+                      <p class="card-text" align="left">The Mughal absorption of Bengal led by empreror Babur.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Hindu States</h4>
+                      <p class="card-text" align="left">Hindu states established in and around Bengal during the early
+                        modern period.
+                      </p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
                       src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Maratha Invasions</h4>
+                      <p class="card-text" align="left">Early 18th century invasions led by the Maratha Empire. </p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
                   </div>
                 </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Colonial Bengal</h4>
+                      <p class="card-text" align="left">Europian colonial settlements in Bengal leading up to the
+                        British crown rule.
+                      </p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
-              <div class="col-md-4" style="float:left">
-                <div class="card mb-2">
-                  <!-- <img class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap"> -->
-                  <div class="card-body">
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
+              <div class="carousel-item" data-bs-interval="1000000">
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">British Crown Rule</h4>
+                      <p class="card-text" align="left">Fall of the Bengal Nawabs and Bengal under the British East
+                        India Company
+                        rule.
+                      </p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Partition of Bengal</h4>
+                      <p class="card-text" align="left">The partition in 1947 caused by the breakdown of Hindu Muslim
+                        unity.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Post-partition Indian Bengal</h4>
+                      <p class="card-text" align="left">The Hindu-dominated western part of British Bengal Province
+                        became the Indian state of West Bengal.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">East Pakistan</h4>
+                      <p class="card-text" align="left">The borders of modern Bangladesh were established, and the
+                        region became East Pakistan as a part of the newly formed State of Pakistan.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Liberation War</h4>
+                      <p class="card-text" align="left">24 years of political and nationalist movements leading up to a
+                        nine-month-long war, resulting in the emergence of the People's Republic of Bangladesh.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4" style="float:left">
+                  <div class="card mb-2">
+                    <!-- <img class="card-img-top"
+                        src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <h4 class="card-title" align="left">Bangladesh</h4>
+                      <p class="card-text" align="left">Emergence of Bangladesh as a sovereign state on 16th December, 1971.</p>
+                      <!-- <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a> -->
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
+          </div>
+          <a class="btn btn-primary" href="timeline.html" target="_blank">See More</a>
+          <div class="carousel-controls" style="">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <div class="carousel-controls" style="">
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
+      </center>
     </section>
 
   </main><!-- End #main -->
