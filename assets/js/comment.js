@@ -35,7 +35,6 @@ function retrieve() {
         if (error) {
             alert("Error");
         } else {
-
         }
     });
 
