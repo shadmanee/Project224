@@ -1333,14 +1333,6 @@ section {
   padding: 16px 32px;
 }
 
-#images-district #MAP{
-  /* padding-bottom: 50px; */
-}
-
-#images-district #MAP iframe{
-  /* padding: 20px; */
-}
-
 #images-district #MAP h2{
   color: #DD3046;
   font-size: 24px;
@@ -1357,13 +1349,12 @@ section {
   margin-bottom: 100px;
 }
 
-#images-district .docomment p{
+#comment-here .docomment p{
   color: #ffffff;
   font-size: 20px;
   font-family: 'Special Elite', cursive;
   padding: 25px 0;
   padding-top: 30px;
-  float: left;
 }
 
 #images-district .commenttext {
@@ -1399,8 +1390,7 @@ section {
   font-family: 'Special Elite', cursive;
 }
 
-#images-district .commenttext #submit button{
-  float: right;
+#comment-here .btn-outline-primary{
   top: -1px;
   right: -1px;
   bottom: -1px;
@@ -1408,13 +1398,15 @@ section {
   background: none;
   font-size: 16px;
   padding: 10px 30px;
+  margin-top: 40px;
+  margin-left: 430px;
   background: #DD3046;
   color: #fff;
   transition: 0.3s;
   border-radius: 10px;
 }
 
-#images-district .commenttext #submit button:hover{
+#comment-here .btn-outline-primary:hover{
   transform: scale(1.1);
 }
 
@@ -1430,6 +1422,76 @@ section {
 #images-district{
   padding-top: 70px;
 }
+
+#comment-here .card-body{
+  background-color: black;
+}
+
+.cont{
+  width: 1000px;
+}
+
+.cont h5{
+  font-size: 28px;
+  font-family: 'Special Elite', cursive;
+  color: #DD3046;
+}
+
+/* End Travel */
+
+
+
+
+/* Architecture Page */
+
+
+#architec .card{
+  background-color: rgba(255, 255, 255, 0.192);
+  
+}
+
+#architec img{
+  padding: 30px 20px 0 30px;
+}
+
+#architec .card-body{
+  padding: 35px;
+}
+
+#architec .card-body h5{
+  font-size: 24px;
+  font-weight: 900;
+  color: #DD3046;
+  font-family: 'Special Elite', cursive;
+  padding-bottom: 20px;
+}
+
+#architec .card-body p{
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: white;
+}
+
+#architec .introo{
+  padding: 50px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: white;
+}
+
+#architec h1{
+  color: #DD3046;
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+}
+
+#architec #last{
+  margin-bottom: 100px;
+}
+
+/* End Architecture */
 
 
 

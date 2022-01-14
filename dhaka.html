@@ -51,7 +51,7 @@
 </head>
 
 
-<script>
+<!-- <script>
     const firebaseConfig = {
         apiKey: "AIzaSyBnuaub9O4eIV5OPWeuqVtadp65mEuXRRc",
         authDomain: "cse224-85a1f.firebaseapp.com",
@@ -63,7 +63,7 @@
         measurementId: "G-XDW8KVY858"
     };
     firebase.initializeApp(firebaseConfig);
-</script>
+</script> -->
 
 <body>
     <!-- ======= Header ======= -->
@@ -471,7 +471,7 @@
                             }
                         </script>
                     </div>
-                    <div class="comment-on" style="margin-top: 100px;">
+                    <!-- <div class="comment-on" style="margin-top: 100px;">
                         <div class="container mt-5">
                             <div class="d-flex justify-content-center row">
                                 <div class="col-md-10"
@@ -486,7 +486,7 @@
                                             <button onclick="show()">Post</button>
                                         </div>
                                         <div id="showcomments">
-                                            <script src="assets/js/comment.js"></script>
+                                            <!-- <script src="assets/js/comment.js"></script>
                                             <button id="showcomments" class="btn-link col-md-2"
                                                 onclick="retrieve()">Show
                                                 Comments</button>
@@ -496,7 +496,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </center>
         </section>
@@ -531,6 +531,65 @@
             </center>
         </section> -->
     </main>
+
+    <div id="comment-here">
+        <div class="container">
+            <form id="comments">
+                <!-- <div class="commenttext col-md-12">
+                    <input type="text" id="name" placeholder="Username">
+                    <textarea type="text" id="comment" placeholder="Your Message"></textarea>
+                    <div id="submit">
+                        <button onclick="show()">Post</button>
+                    </div>
+                    <div id="showcomments">
+                        <button id="showcomments" class="btn-link col-md-2"
+                            onclick="retrieve()">Show
+                            Comments</button>
+                    </div>
+                </div> -->
+                <div class="col-lg-11" style="margin: 40px; padding: 20px; background-color: rgba(255, 255, 255, 0.151);">
+                    <div class="docomment col-md-9">
+                        <p>Share your experiences with our visitors! Leave a comment.</p>
+                    </div>
+                    <div class="mb-2">
+                        <label for="name" class="form-label"></label>
+                        <input id="name" name="name" type="text" class="form-control" autocomplete="off"
+                            placeholder="Username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comment" class="form-label"></label>
+                        <textarea id="comment" name="comment" class="form-control"
+                            placeholder="Your Message"></textarea>
+                        <button class="btn btn-outline-primary">Post</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container cont"
+            style="font-size: 25px; font-family: 'Special Elite', cursive; margin-top: 20px; margin-bottom: 100px;">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBnuaub9O4eIV5OPWeuqVtadp65mEuXRRc",
+            authDomain: "cse224-85a1f.firebaseapp.com",
+            databaseURL: "https://cse224-85a1f-default-rtdb.firebaseio.com",
+            projectId: "cse224-85a1f",
+            storageBucket: "cse224-85a1f.appspot.com",
+            messagingSenderId: "713702263910",
+            appId: "1:713702263910:web:7d72acd88edef446d1f1a7",
+            measurementId: "G-XDW8KVY858"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+    <script src="./assets/js/comment.js"></script>
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
