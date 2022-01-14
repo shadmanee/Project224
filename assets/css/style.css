@@ -14,9 +14,6 @@
 # General
 --------------------------------------------------------------*/
 body {
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-
   background: #0c0b09;
   color: #fff;
 }
@@ -788,10 +785,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #0C0B09;
 }
 
-#hero1 #hero-intro .card .img-title h1{
+#hero1 #hero-intro .card .img-title a{
   font-family: 'Special Elite', cursive;
   font-size: 30px;
-  padding-top: 4px;
   padding-bottom: 8px;
   color: #DD3046;
 }
